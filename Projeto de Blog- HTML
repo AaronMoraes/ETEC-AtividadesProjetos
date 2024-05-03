@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Urban streetwear</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="navbar-inner">
+        <h2>URBAN STREETWEAR</h2>
+        <h3> <img src="https://jornalesportes.com/wp-content/uploads/2023/05/simbolo-da-nike.jpg" alt="Simbolo NIke" height="40" width="80"></h3>
+        <ul id="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <main id="posts-container">
+        <article class="post">
+          <img src="https://cdn.shopify.com/s/files/1/2017/7541/files/nikesb_dunk_paris_bd624c85e984eb4b3e5bbc5eb4b33f00_2048x2048.jpg?v=1589132846" alt="Nike Paris" height = "600" width="400"/>
+          <h3 class="a">Nike Dunk Paris<a href="#"></a></h3>
+          <p class="description">
+            <br>
+            Em 2003 o Nike Dunk USB low parris. foi lançado na exposição White Dunk. Evolution of a nycon Art, em Paris. 
+            Inspirado pelo pintor francês Bernard buffet, esse modelo exclusivo apresenta 1 cabedal. de camurça e lona, 
+            onde cada par carrega 1 obra de arte única do pintor.
+          </p>
+          <p class="author">Por: Bernard buffet</p>
+          <a  class= "Ler" href="https://thegamecollective.com.br/blogs/footwear/nike-dunk-sb-low-paris-e-vendido-por-cerca-de-r-297-800-00" target="_blank"> Ler mais</a>
+        </article>
+        <article class="post">
+          <img src="https://www.copclub.com.br/cdn/shop/products/air-jordan-1-mid-diamond-shorts-3_2000x_cec9ac61-5bf2-47b7-81fd-752f784dc93c.png?v=1646349858" alt="Air Jordan" />
+          <h3 class="a">AIR Jordan<a href="#"></a></h3>
+          <p class="description">
+            <br>  
+            O primeiro tênis Air Jordan foi produzido para o ex-jogador de basquete do Hall of Fame Michael Jordan durante seu tempo com o Chicago Bulls no final de 1984 e lançado ao público em 1º de abril de 1985. 
+            Os sapatos foram desenhados para a Nike por Peter Moore, Tinker Hatfield e Bruce Kilgore.
+          </p>
+          <p class="author">Por: Peter Moore, Tinker Hatfield e Bruce Kilgore</p>
+          <a class= "Ler" href="https://pt.wikipedia.org/wiki/Air_Jordan" target="_blank">Ler mais</a>
+        </article>
+        <article class="Nike TN">
+          <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_361,h_200/https://captaincreps.com/wp-content/uploads/2021/11/pixlr-bg-result-2021-11-15T021502.431.png" alt="Nike TN" />
+          <h3 class="a">Nike TN<a href="#"></a></h3>
+          <p class="description">
+            Qual é o segredo do sucesso do Nike Air Max? Uma paixão pela ciência. A marca pretende revolucionar a nossa experiência com tênis, 
+            desenvolvendo continuamente a tecnologia “Air” de maneiras inovadoras a cada nova versão.
+          </p>
+          <p class="author">Por: Davi Muniz </p>
+          <a  class= "Ler" href="https://www.farfetch.com/br/style-guide/trends-subcultures/trajetoria-completa-do-tenis-nike-air-max/#:~:text=1998,-NIKE%20AIR%20MAX&text=Fl%C3%B3rida%3A%20o%20local%20onde%20Sean,mais%20conhecido%20como%20Nike%20TN)." target="_blank">Ler mais</a>
+        </article>
+      </main>
+      <aside id="sidebar">
+        <section id="search-bar">
+          <h4>Busca</h4>
+          <form>
+            <input type="text" placeholder="Procurando algo?" />
+            <input type="submit" value="Buscar" />
+          </form>
+        </section>
+        <section id="categories">
+          <h4>Categorias</h4>
+          <nav>
+            <ul>
+              <li><a href="#">• Tamanho</a></li>
+              <li><a href="#">• Lançamentos</a></li>
+              <li><a href="#">• Exclusivos</a></li>
+              <li><a href="#">• Maior Preço</a></li>
+              <li><a href="#">• Menor Preço</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section id="tags">
+          <h4>Tipos de tênis</h4>
+          <div id="tags-container">
+            <a href="">Nike Dunk</a>
+            <a href="https://www.nike.com.br/nav/esportes/skateboarding/genero/masculino/tipodeproduto/calcados" target="_blank">Nike SB</a>
+            <a href="#">Nike Jordan</a>
+            <a  href="https://www.nike.com.br/nav/modelos/airforce1" target="_blank">Air force</a>
+            <a href="#">Nike TN</a>
+          </div>
+        </section>
+      </aside>
+    </div>
+    <footer id="footer">
+      <h2><img src="https://jornalesportes.com/wp-content/uploads/2023/05/simbolo-da-nike.jpg" alt="Simbolo NIke" height="40" width="90"></h2>
+      <p>2024 © </p>
+    </footer>
+  </body>
+</html>
