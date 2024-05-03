@@ -1,0 +1,26 @@
+create database Contrec;
+use Contrec;
+create table tudoecia(
+boleto varchar(40)not null primary key,
+nome integer not null,
+ID varchar(50) ,
+descricao varchar(40) ,
+valor decimal(10,2) ,
+vencimento varchar(10) , 
+banco varchar(10) );
+
+
+select * from tudoecia;
+
+
+insert into tudoecia(boleto,nome, ID , descricao, valor, vencimento, banco)values 
+(100100, 'FORRO E PISO AMARAL LTDA', 12354, 'AZULEJO BRIL',5000,	'20/01/2021','ITAU'),
+(100110, 'MADEREIRA FERNANDES S/C LTDA',08960, 'CAIBRO', 2500, '22/01/2021', 'ITAU'),
+(100120, 'MADEREIRA FERNANDES S/C LTDA', 12305, 'RUFO', '1500', 15/10/2022, 'BRADESCO'),
+(200120, 'CONCREGEL- CONRETO USINADO LTDA', 07940, 'AZULEJO GOLD', '8000', 26/04/2022, 'BCN'),
+(200125,'GARGAMEL- DISTRIBUIDORA DE AÇO LTDA', 05819, 'AÇO TEMPERADO', '200125', 26/04/2022, 'BCN'),
+(200130, 'CONCREGEL', '06810', 'CONCRETO', '11000', '26/09/2022', 'ITAU'),
+(250350, 'GESSO FORTE S/C LTDA', '04820','FORRO DE GESSO', '1500', '26/01/2022', 'BRADESCO'),
+(250360, 'METAHYDRA-METAIS HIDRÁULICOS LTDA', '01860','MISTURADOR', '500', '18/12/2019', 'UNIBANCO'),
+(250370, 'METAHYDRA-METAIS HIDRÁULICOS LTDA', '10694', 'VALVULAS HIDRAULICAS', '3400', '26/04/2022', 'UNIBANCO'),
+(250380,'GESSO FORTE S/C. LTDA.','06810','FORRO DE GESSO', '3500', '26/04/2022','UNIBANCO'); 
