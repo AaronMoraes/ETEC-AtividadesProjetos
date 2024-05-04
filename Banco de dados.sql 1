@@ -1,13 +1,13 @@
-/*COMANDO PARA CRIAR BANCO DE DADOS*/
+
 create database Moviecom;
 use Moviecom;
-/* comando para criar tabela*/
+
 create table genero(
 id varchar(40) not null primary key,
 tipo varchar(30),
 valor decimal (10,2) );
 
-/*comando para inserir dados na tabela*/
+
 insert into genero(id, tipo, valor)values
 (1, 'Aventura',2.5),
 (2, 'Comédia' ,3.0),
