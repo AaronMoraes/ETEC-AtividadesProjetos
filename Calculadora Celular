@@ -133,12 +133,10 @@ function handleNumber(number) {
 }
 
 function handleOperator(op) {
-    if (op === 'C') {
+    if (op === 'AC') {
         currentValue = '0';
         previousValue = null;
         operator = null;
-    } else if (op === '←') {
-        currentValue = currentValue.slice(0, -1) || '0';
     } else if (op === '=') {
         if (previousValue !== null && operator !== null) {
             currentValue = String(performCalculation());
@@ -163,7 +161,7 @@ function performCalculation() {
     const curr = parseFloat(currentValue);
     if (operator === '+') return prev + curr;
     if (operator === '-') return prev - curr;
-    if (operator === '*') return prev * curr;
+    if (operator === 'x') return prev * curr;
     if (operator === '/') return prev / curr;
     return curr;
 }
